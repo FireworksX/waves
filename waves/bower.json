@@ -1,0 +1,22 @@
+{
+  "name": "tewt",
+  "description": "dfg",
+  "main": "index.js",
+  "authors": [
+    "FireworksX <abeltinsh.a@icloud.com>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "src/libs",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.2.1",
+    "Snap.svg": "snap.svg#^0.5.1"
+  }
+}

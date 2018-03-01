@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #5f72b3; }
+
+.header {
+  background: url("../../../images/header_bg.jpg") no-repeat;
+  height: 800px;
+  -webkit-background-size: cover;
+  background-size: cover; }
+
+.content {
+  padding: 300px 0;
+  background: #fff;
+  position: relative; }
+
+.wave {
+  width: 100%;
+  overflow: hidden;
+  position: absolute;
+  top: -218px; }
+
+.wave__one {
+  background: url("../../../images/wave_top.png") repeat-x;
+  width: 7000px;
+  height: 218px;
+  animation: waves 15s infinite linear;
+  position: absolute;
+  top: 0; }
+
+.wave__two {
+  background: url("../../../images/wave_top_opacity.png") repeat-x;
+  width: 7000px;
+  height: 218px;
+  animation: waves 10s infinite linear;
+  position: relative;
+  top: 0; }
+
+@keyframes waves {
+  0% {
+    margin-left: 0; }
+  100% {
+    margin-left: -1938px; } }
